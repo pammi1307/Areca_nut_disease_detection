@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arecanut Disease || Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        .slide-in {
+            animation: slideIn 0.5s forwards;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Result Data</h1>
+    </header>
+    <nav class="slide-in">
+        <a href="/">Home</a>
+    </nav>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sl No</th>
+                    <th>Deep Learning Model</th>
+                    <th>Training Accuracy</th>
+                    <th>Test Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Convolutional Neural Network (Improved & Enhanced Model)</td>
+                    <td>99.81%</td>
+                    <td>98.76%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>VGG16</td>
+                    <td>88.50%</td>
+                    <td>93.26%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>ResNet</td>
+                    <td>50.84%</td>
+                    <td>31.22%</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>EfficientNet</td>
+                    <td>98.37%</td>
+                    <td>98.70%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        &copy; 2024 Result Data
+    </footer>
+    <script>
+        // Add class to nav for slide-in effect
+        window.onload = function() {
+            document.querySelector('nav').classList.add('slide-in');
+        };
+    </script>
+</body>
+</html>

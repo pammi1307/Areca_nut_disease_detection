@@ -1,0 +1,5 @@
+python –m venv Areca
+Areca\Scripts\activate
+python app.py 
+pip install -r req.txt
+python.exe -m pip install --upgrade pip
